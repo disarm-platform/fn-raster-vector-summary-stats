@@ -5,7 +5,7 @@ functions:
   fn-raster-vector-summary-stats:
     handler: ./fn-raster-vector-summary-stats
     lang: dockerfile
-    image: disarm/fn-raster-vector-summary-stats:0.0.6
+    image: disarm/fn-raster-vector-summary-stats:0.0.7
     environment:
       write_debug: true
       write_timeout: 70
