@@ -15,7 +15,7 @@ JSON object containing:
 
 ## Constraints
 
-- maximum size of `polygons` is ~XX MB or ~YY polygons or ~ZZ total area in kms
+- Maximum size of `polygons` is ~XX MB or ~YY polygons or ~ZZ total area in kms. Currently being determined.
 
 ## Response
 
