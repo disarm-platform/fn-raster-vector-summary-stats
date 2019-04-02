@@ -8,8 +8,8 @@ JSON object containing:
 
 - `raster`: **Required** _{string: Base64-encoded image file or URL}_ Source raster containing values to extract.
 - `subject`: **Required** _{GeoJSON FeatureCollection of Polygons or Points, URL}_ GeoJSON of polygons or points.
-- `stats`: _{string}_ **Defaults to `mean`**. For _polygons_, pass one or more of `mean`, `max`, `min`, `mode`, `sum`, `count` separated by spaces e.g. `max mean`. Not required (and ignored) for _points_.
-- `geojson_out`: _{boolean}_ **Defaults to `true`**. 
+- `stats`: **Optional** Defaults to `mean` _{string}_ For _polygons_, pass one or more of `mean`, `max`, `min`, `mode`, `sum`, `count` separated by spaces e.g. `max mean`. Not required (and ignored) for _points_.
+- `geojson_out`: **Optional** Defaults to `true` _{boolean}_. 
   - For _polygons_: If `true`, return the incoming GeoJSON with additional properties named as given in `stats`. If `false`, return an array of extracted values named as given in `stats`.
   - For _points_: If `true`, return the incoming GeoJSON with an additional property of `value`. If `false`, return an array of the extracted values.
 
