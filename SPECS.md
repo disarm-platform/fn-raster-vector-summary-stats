@@ -21,20 +21,3 @@ JSON object containing:
 
 See `geojson_out` above.
 
-## Example
-
-### Input
-
-```
-{
-  
-}
-```
-
-### Output
-
-```
-{
-}
-```
-
