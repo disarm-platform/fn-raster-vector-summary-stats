@@ -38,10 +38,3 @@ See `geojson_out` above.
 }
 ```
 
-
-## Use cases
-
-### WorldPop 1km population extractor
-
-Use `worldpop-1km:latest` as the `raster` parameter.
-
