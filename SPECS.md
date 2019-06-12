@@ -21,3 +21,5 @@ JSON object containing:
 
 See `geojson_out` above.
 
+## Example input
+An example JSON input can be found [here](https://raw.githubusercontent.com/disarm-platform/fn-raster-vector-summary-stats/master/fn-raster-vector-summary-stats/function/test_req.json)
